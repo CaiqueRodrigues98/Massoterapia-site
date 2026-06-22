@@ -1,0 +1,87 @@
+<svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#f5f7f6"/>
+  
+  <!-- Hair -->
+  <path d="M 150 100 Q 150 50 250 50 Q 350 50 350 100 L 350 140 Q 350 130 370 120 L 370 180 Q 370 200 350 220 L 150 220 Q 130 200 130 180 L 130 120 Q 150 130 150 140 Z" fill="#3D2817"/>
+  
+  <!-- Face -->
+  <circle cx="250" cy="150" r="60" fill="#d4b5a0"/>
+  
+  <!-- Eyes -->
+  <circle cx="225" cy="140" r="6" fill="#2c3e50"/>
+  <circle cx="275" cy="140" r="6" fill="#2c3e50"/>
+  
+  <!-- Smile -->
+  <path d="M 220 160 Q 250 175 280 160" stroke="#8f7d6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <rect x="235" y="210" width="30" height="30" fill="#d4b5a0"/>
+  
+  <!-- Shoulders and body -->
+  <ellipse cx="250" cy="300" rx="70" ry="80" fill="#d4b5a0"/>
+  
+  <!-- Arms -->
+  <ellipse cx="170" cy="280" rx="25" ry="60" fill="#d4b5a0"/>
+  <ellipse cx="330" cy="280" rx="25" ry="60" fill="#d4b5a0"/>
+  
+  <!-- Hands -->
+  <circle cx="135" cy="320" r="18" fill="#d4b5a0"/>
+  <circle cx="365" cy="320" r="18" fill="#d4b5a0"/>
+  
+  <!-- Shirt/clothing -->
+  <path d="M 180 290 L 170 450 Q 170 480 190 490 L 310 490 Q 330 480 330 450 L 320 290 Z" fill="#6b9b92" opacity="0.7"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="20" fill="#a89bbd" opacity="0.2"/>
+  <circle cx="420" cy="480" r="30" fill="#6b9b92" opacity="0.2"/>
+</svg>
+  
+  <!-- Olho esquerdo -->
+  <circle cx="220" cy="110" r="8" fill="#2D312E"/>
+  <circle cx="222" cy="108" r="3" fill="white"/>
+  
+  <!-- Olho direito -->
+  <circle cx="280" cy="110" r="8" fill="#2D312E"/>
+  <circle cx="282" cy="108" r="3" fill="white"/>
+  
+  <!-- Nariz -->
+  <path d="M250 120L245 145L255 145Z" fill="#C9A087" stroke="#C9A087" stroke-width="1"/>
+  
+  <!-- Boca -->
+  <path d="M220 160Q250 170 280 160" stroke="#A07060" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Corpo -->
+  <path d="M150 220L130 280C130 300 140 320 160 330L340 330C360 320 370 300 370 280L350 220Z" fill="#8F9E8B"/>
+  
+  <!-- Braço esquerdo relaxado -->
+  <path d="M150 240L100 320C95 330 100 340 110 338L140 300" fill="#D4B5A0" stroke="#C9A087" stroke-width="1"/>
+  
+  <!-- Braço direito relaxado -->
+  <path d="M350 240L400 320C405 330 400 340 390 338L360 300" fill="#D4B5A0" stroke="#C9A087" stroke-width="1"/>
+  
+  <!-- Mão esquerda -->
+  <circle cx="105" cy="325" r="12" fill="#D4B5A0"/>
+  
+  <!-- Mão direita -->
+  <circle cx="395" cy="325" r="12" fill="#D4B5A0"/>
+  
+  <!-- Pernas -->
+  <rect x="210" y="330" width="18" height="80" fill="#D4B5A0" rx="9"/>
+  <rect x="272" y="330" width="18" height="80" fill="#D4B5A0" rx="9"/>
+  
+  <!-- Pés -->
+  <ellipse cx="219" cy="420" rx="14" ry="10" fill="#C9A087"/>
+  <ellipse cx="281" cy="420" rx="14" ry="10" fill="#C9A087"/>
+  
+  <!-- Acento decorativo (flores/wellness) -->
+  <circle cx="80" cy="80" r="8" fill="#D4A373" opacity="0.3"/>
+  <circle cx="420" cy="100" r="6" fill="#8F9E8B" opacity="0.3"/>
+  <circle cx="420" cy="480" r="7" fill="#D4A373" opacity="0.2"/>
+  
+  <!-- Texto descritivo -->
+  <text x="250" y="560" font-family="Georgia, serif" font-size="14" fill="#4A5D4E" text-anchor="middle" opacity="0.7">
+    Especialista em Massoterapia
+  </text>
+</svg>
+</svg>

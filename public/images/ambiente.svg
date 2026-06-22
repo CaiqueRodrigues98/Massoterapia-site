@@ -1,0 +1,52 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background com gradiente -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBF9F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E3DC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Maca de massagem -->
+  <rect x="80" y="180" width="440" height="30" rx="5" fill="#8B7355"/>
+  <rect x="70" y="210" width="20" height="120" rx="3" fill="#6B5345"/>
+  <rect x="510" y="210" width="20" height="120" rx="3" fill="#6B5345"/>
+  <ellipse cx="80" cy="330" rx="18" ry="12" fill="#6B5345"/>
+  <ellipse cx="520" cy="330" rx="18" ry="12" fill="#6B5345"/>
+  
+  <!-- Almofada -->
+  <ellipse cx="300" cy="160" rx="100" ry="40" fill="#E8D4C8"/>
+  <ellipse cx="300" cy="155" rx="100" ry="35" fill="#F0E0D8"/>
+  
+  <!-- Velas aromáticas -->
+  <rect x="50" y="60" width="30" height="60" fill="#F5DEB3" rx="3"/>
+  <path d="M65 55L60 40L70 40Z" fill="#FF6B35"/>
+  <rect x="520" y="80" width="30" height="50" fill="#F5DEB3" rx="3"/>
+  <path d="M535 75L530 65L540 65Z" fill="#FF6B35"/>
+  
+  <!-- Planta decorativa -->
+  <line x1="520" y1="360" x2="520" y2="280" stroke="#7CB342" stroke-width="3"/>
+  <circle cx="530" cy="270" r="8" fill="#7CB342"/>
+  <circle cx="510" cy="280" r="7" fill="#7CB342"/>
+  <circle cx="530" cy="290" r="6" fill="#7CB342"/>
+  <circle cx="540" cy="300" r="8" fill="#7CB342"/>
+  
+  <!-- Toalhas empilhadas -->
+  <rect x="30" y="220" width="30" height="50" fill="#E8D4C8" rx="2"/>
+  <rect x="28" y="215" width="30" height="50" fill="#F0E0D8" rx="2"/>
+  <rect x="26" y="210" width="30" height="50" fill="#F5E5D9" rx="2"/>
+  
+  <!-- Óleo essencial (frasco) -->
+  <rect x="540" y="200" width="20" height="35" fill="#D4A373" opacity="0.6" rx="2"/>
+  <rect x="545" y="195" width="10" height="8" fill="#8B7355"/>
+  
+  <!-- Ambiance - raios de luz -->
+  <line x1="0" y1="0" x2="150" y2="200" stroke="#D4A373" stroke-width="2" opacity="0.1"/>
+  <line x1="600" y1="0" x2="450" y2="200" stroke="#D4A373" stroke-width="2" opacity="0.1"/>
+  
+  <!-- Texto -->
+  <text x="300" y="390" font-family="Georgia, serif" font-size="16" fill="#4A5D4E" text-anchor="middle" opacity="0.6">
+    Ambiente acolhedor e relaxante
+  </text>
+</svg>

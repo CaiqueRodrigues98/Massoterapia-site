@@ -1,0 +1,64 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="400" fill="#f5f7f6"/>
+  
+  <!-- Massage table -->
+  <rect x="100" y="150" width="300" height="30" fill="#8f7d6b" rx="5"/>
+  
+  <!-- Person lying down -->
+  <circle cx="250" cy="120" r="25" fill="#d4b5a0"/>
+  <ellipse cx="250" cy="160" rx="40" ry="50" fill="#d4b5a0"/>
+  
+  <!-- Pillow -->
+  <ellipse cx="180" cy="115" rx="30" ry="20" fill="#e8d4c4"/>
+  
+  <!-- Hands massaging -->
+  <circle cx="220" cy="165" r="12" fill="#d4b5a0" opacity="0.8"/>
+  <circle cx="280" cy="165" r="12" fill="#d4b5a0" opacity="0.8"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="20" fill="#6b9b92" opacity="0.2"/>
+  <circle cx="420" cy="320" r="25" fill="#a89bbd" opacity="0.2"/>
+</svg>
+  
+  <!-- Braço relaxado -->
+  <path d="M260 130L180 140C170 142 170 155 180 157L250 145" fill="#D4B5A0" stroke="#C9A087" stroke-width="1"/>
+  
+  <!-- Mão -->
+  <circle cx="175" cy="150" r="8" fill="#D4B5A0"/>
+  
+  <!-- Torso em repouso -->
+  <path d="M280 155L270 260C268 275 280 285 295 285L310 285C325 285 337 275 335 260L325 155Z" fill="#8F9E8B" opacity="0.7"/>
+  
+  <!-- Pernas relaxadas -->
+  <path d="M285 260L280 330L295 340" stroke="#D4B5A0" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M305 260L310 330L295 340" stroke="#D4B5A0" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Maca -->
+  <rect x="150" y="345" width="300" height="20" rx="3" fill="#8B7355"/>
+  
+  <!-- Almofada sob cabeça -->
+  <ellipse cx="280" cy="110" rx="35" ry="20" fill="#F0E0D8"/>
+  
+  <!-- Oleozinho na mao do terapeuta (ao fundo) -->
+  <g opacity="0.4">
+    <path d="M420 100L450 110L440 140Z" fill="#D4B5A0"/>
+    <circle cx="445" cy="135" r="6" fill="#D4A373"/>
+  </g>
+  
+  <!-- Efeito de relaxamento (ondas suaves) -->
+  <circle cx="200" cy="200" r="30" fill="none" stroke="#D4A373" stroke-width="1" opacity="0.2"/>
+  <circle cx="200" cy="200" r="50" fill="none" stroke="#D4A373" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Benefícios em ícones -->
+  <g opacity="0.5">
+    <circle cx="420" cy="80" r="3" fill="#4A5D4E"/>
+    <circle cx="430" cy="95" r="3" fill="#4A5D4E"/>
+    <circle cx="415" cy="100" r="3" fill="#4A5D4E"/>
+  </g>
+  
+  <!-- Titulo -->
+  <text x="250" y="390" font-family="Georgia, serif" font-size="14" fill="#4A5D4E" text-anchor="middle" opacity="0.7">
+    Massagem Relaxante - Alívio Profundo
+  </text>
+</svg>

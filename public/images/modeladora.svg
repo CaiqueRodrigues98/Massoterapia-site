@@ -1,0 +1,66 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="400" fill="#f5f7f6"/>
+  
+  <!-- Massage table -->
+  <rect x="100" y="160" width="300" height="25" fill="#8f7d6b" rx="5"/>
+  
+  <!-- Person in dynamic pose -->
+  <circle cx="280" cy="110" r="25" fill="#d4b5a0"/>
+  <ellipse cx="280" cy="165" rx="38" ry="48" fill="#d4b5a0"/>
+  <ellipse cx="210" cy="210" rx="20" ry="35" fill="#d4b5a0" transform="rotate(-25 210 210)"/>
+  <ellipse cx="320" cy="210" rx="20" ry="35" fill="#d4b5a0" transform="rotate(25 320 210)"/>
+  
+  <!-- Therapist hands with energy -->
+  <circle cx="240" cy="170" r="14" fill="#d4b5a0" opacity="0.8"/>
+  <circle cx="300" cy="170" r="14" fill="#d4b5a0" opacity="0.8"/>
+  <path d="M 240 170 L 230 160" stroke="#a89bbd" stroke-width="2" opacity="0.6"/>
+  <path d="M 300 170 L 310 160" stroke="#a89bbd" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="20" fill="#6b9b92" opacity="0.2"/>
+  <circle cx="420" cy="320" r="25" fill="#a89bbd" opacity="0.2"/>
+</svg>
+  
+  <!-- Braço com movimento -->
+  <path d="M260 120L140 150C125 155 120 170 135 175L265 140" fill="#D4B5A0" stroke="#C9A087" stroke-width="1"/>
+  
+  <!-- Outro braço -->
+  <path d="M300 120L420 150C435 155 440 170 425 175L295 140" fill="#D4B5A0" stroke="#C9A087" stroke-width="1"/>
+  
+  <!-- Mãos em posição ativa -->
+  <circle cx="135" cy="165" r="8" fill="#D4B5A0"/>
+  <circle cx="425" cy="165" r="8" fill="#D4B5A0"/>
+  
+  <!-- Torso -->
+  <path d="M280 140L270 260C268 275 280 285 295 285L310 285C325 285 337 275 335 260L325 140Z" fill="#8F9E8B" opacity="0.7"/>
+  
+  <!-- Pernas em posição de trabalho -->
+  <path d="M285 260L275 340L290 345" stroke="#D4B5A0" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M305 260L315 340L300 345" stroke="#D4B5A0" stroke-width="16" fill="none" stroke-linecap="round"/>
+  
+  <!-- Maca -->
+  <rect x="150" y="345" width="300" height="20" rx="3" fill="#8B7355"/>
+  
+  <!-- Almofada -->
+  <ellipse cx="280" cy="100" rx="30" ry="18" fill="#F0E0D8"/>
+  
+  <!-- Efeito de movimento/energia (linhas dinâmicas) -->
+  <path d="M150 140L120 130" stroke="#D4A373" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+  <path d="M150 160L100 150" stroke="#D4A373" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+  
+  <path d="M350 140L380 130" stroke="#D4A373" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+  <path d="M350 160L400 150" stroke="#D4A373" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+  
+  <!-- Mudanças de corpo (representação visual) -->
+  <g opacity="0.4">
+    <circle cx="420" cy="80" r="2" fill="#4A5D4E"/>
+    <circle cx="430" cy="90" r="2" fill="#4A5D4E"/>
+    <circle cx="415" cy="100" r="2" fill="#4A5D4E"/>
+  </g>
+  
+  <!-- Titulo -->
+  <text x="250" y="390" font-family="Georgia, serif" font-size="14" fill="#4A5D4E" text-anchor="middle" opacity="0.7">
+    Massagem Modeladora - Circulação e Forma
+  </text>
+</svg>

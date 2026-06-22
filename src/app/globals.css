@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --color-spa-background: #f5f7f6;
+  --color-spa-primary: #1e4d47;
+  --color-spa-secondary: #6b9b92;
+  --color-spa-accent: #a89bbd;
+  --color-spa-text: #3a4a48;
+  --color-spa-highlight: #8b7d9f;
+  --color-spa-light: #dae8e4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-title), Georgia, serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--color-spa-highlight);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions */
+button,
+a,
+input,
+select,
+textarea {
+  transition: all 0.3s ease;
+}
+
+/* Gradientes premium */
+.gradient-hero {
+  background: linear-gradient(135deg, #1e4d47 0%, #6b9b92 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #a89bbd 0%, #8b7d9f 100%);
+}
+
+.gradient-soft {
+  background: linear-gradient(135deg, #dae8e4 0%, #f5f7f6 100%);
+}
