@@ -38,6 +38,8 @@ export function ServicesSection({ services }: ServicesSectionProps) {
           <motion.article
             key={service.id}
             initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-50px" }}
             variants={fadeInUp}
             className="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl border-2 border-spa-light transition flex flex-col justify-between hover:scale-105 hover:border-spa-highlight duration-300 group"
           >
